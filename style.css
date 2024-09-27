@@ -1,0 +1,134 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #173400;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #173400;
+}
+
+.logo img {
+    width: 140px;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px; /* Adicionado espaçamento entre os botões */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 29px;
+}
+
+.sign-in-btn {
+    width: 98px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.open-account-btn {
+    width: 190px;
+    height: 40px;
+    background-color: #9FE970;
+    color: #000;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between; /* Centralizar conteúdo e imagem */
+    align-items: center;
+    padding: 60px;
+    background-color: #173400;
+}
+
+.conteudo-text {
+    max-width: 50%;
+}
+
+.conteudo h1 {
+    font-size: 66px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-img {
+    max-width: 40%; /* Ajuste de tamanho para a imagem principal */
+}
+
+.conteudo-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nome-empresa {
+    width: 138px;
+    height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #2A4314;
+    color: #fff;
+    border-radius: 29px;
+    margin-bottom: 15px;
+}
+
+footer {
+    padding: 100px;
+    text-align: center;
+}
+
+.texto {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.social img {
+    width: 150px;
+}
